@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class BestLoanRates {
     public static final Map<Integer, Float> bestRates = Map.of(1, 5.50f, 2, 3.45f, 3, 2.67f);
-    public static final float EPSILON = 0.00000001f;
+    public static final float EPSILON = 0.000_000_01f;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
